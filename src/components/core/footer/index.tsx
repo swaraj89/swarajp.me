@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Row, Col, Container } from 'reactstrap';
-import './index.css';
+import './index.scss';
 
 const { Component } = React;
 
