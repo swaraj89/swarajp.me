@@ -6,7 +6,7 @@ $lighter-grey:rgb(153, 153, 153);
 $white:rgb(255,255,255);
 
 
-$primary-color:$black;
+$primary-color:$black !global;
 $secondary-color:$light-grey;
 $tertiary-color:$grey;
 

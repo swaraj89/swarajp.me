@@ -15,20 +15,9 @@
 }
 .menubar a:hover,
 .menubar a:focus{
-  color: rgb(0, 0, 0);
+  color: $primary-color;
 }
 .active{
   background-color:transparentize($color: #050505, $amount: 0.9);
   color:#000;
-  opacity: 0.7;
-}
-
-h1{
-  font-weight: $header-font-weight;
-  font-size: $header-font-size;
-}
-
-h2{
-  font-weight: $header2-font-weight;
-  font-size: $header2-font-size;
 }

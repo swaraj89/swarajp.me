@@ -13,7 +13,6 @@ import { Switch } from 'react-router';
 class App extends React.Component {
   render() {
     return (
-      <div>
         <Router>
           <div>
             <div className="menubar">
@@ -34,7 +33,7 @@ class App extends React.Component {
                 </Nav>
               </Container>
             </div>
-            <Container>
+            <Container className="fill">
               <Switch>
                 <Route exact path="/" component={Welcome} />
                 <Route path="/timeline" component={Timeline} />
@@ -46,7 +45,6 @@ class App extends React.Component {
             <Footer />
           </div>
         </Router>
-      </div>
     );
   }
 }
