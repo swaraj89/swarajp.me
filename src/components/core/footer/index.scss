@@ -1,3 +1,10 @@
-.footer{
-    border-top:1px solid #ccc;
+@import '../../../stylesheets/modules/_colors';
+
+.footer {
+    border-top: 1px solid transparentize($color: $primary-color, $amount: 0.6);
+    p {
+        &.footer-text {
+            margin-top: 4px;
+        }
+    }
 }
